@@ -1,0 +1,24 @@
+{
+  "name": "discord-roller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "start": "node build/index",
+    "start:watch": "node --watch build/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dice-roller/rpg-dice-roller": "^5.2.1",
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "typescript": "^5.0.3"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "eslint": "^8.37.0"
+  }
+}
